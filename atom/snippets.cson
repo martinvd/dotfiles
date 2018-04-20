@@ -19,19 +19,3 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
-
-'.source.go':
-  'fmt.Println':
-    'prefix': 'fpl'
-    'body': 'fmt.Println("$1")'
-  'main() with fmt':
-    'prefix': 'main-fmt'
-    'body': """
-      package main
-
-      import "fmt"
-
-      func main() {
-        $1
-      }
-    """
