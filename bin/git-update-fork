@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Assumes remote is named 'upstream' and main branch is 'master'.
+
+# Update local master branch from upstream
+git checkout master
+git fetch upstream
+git merge upstream/master
+git push
