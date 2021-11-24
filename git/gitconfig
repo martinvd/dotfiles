@@ -1,6 +1,12 @@
 [user]
     email = martinvd@gmail.com
     name = Martin van Driel
+[pull]
+    rebase = true
+[fetch]
+    prune = true
+[diff]
+    colorMoved = zebra
 [alias]
     change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ \\\"$`echo $VAR`\\\" = '$OLD' ]]; then export $VAR='$NEW'; fi\" $@; }; f "
     # ^ taken from https://github.com/brauliobo/gitconfig/blob/master/configs/.gitconfig
