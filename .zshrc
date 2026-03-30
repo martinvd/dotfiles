@@ -9,3 +9,10 @@ symclaudemd() {
     echo "Error: AGENTS.md does not exist in the current directory."
   fi
 }
+
+# update global stuff
+updg() {
+  bun update -g
+  bunx skills update
+  brew upgrade
+}
