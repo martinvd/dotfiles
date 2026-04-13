@@ -10,6 +10,10 @@ symclaudemd() {
   fi
 }
 
+cc=claude
+ccc='claude --continue'
+ccr='claude --resume'
+
 # update global stuff
 updg() {
   bun update -g
