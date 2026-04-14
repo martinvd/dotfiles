@@ -17,6 +17,6 @@ ccr='claude --resume'
 # update global stuff
 updg() {
   bun update -g
-  bunx skills update
+  bunx skills update -g
   brew upgrade
 }
