@@ -18,7 +18,7 @@ ccr='claude --resume'
 
 # update global stuff
 updg() {
-  brew upgrade
+  brew upgrade -y
   bun update -g
   skills update -g
 }
