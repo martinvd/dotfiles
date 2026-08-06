@@ -11,7 +11,7 @@ symclaudemd() {
 }
 
 cc() {
-  CLAUDE_CODE_NO_FLICKER=1 claude --model eu.anthropic.claude-opus-4-8 --dangerously-skip-permissions
+  CLAUDE_CODE_NO_FLICKER=1 claude --model eu.anthropic.claude-opus-5 --dangerously-skip-permissions
 }
 ccc='claude --continue'
 ccr='claude --resume'
